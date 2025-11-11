@@ -11,7 +11,7 @@ from datetime import datetime
 # CONFIGURATION — UPDATE THESE VALUES
 # ==========================================================
 DATABRICKS_INSTANCE = st.secrets['DATABRICKS_INSTANCE']
-DATABRICKS_TOKEN = st.secrets['DB_token ']  # replace with your PAT
+DATABRICKS_TOKEN = st.secrets['DB_token']  # replace with your PAT
 NOTEBOOK_PATH = st.secrets['NOTEBOOK_PATH']
 VOLUME_PATH = st.secrets['VOLUME_PATH']
 CLUSTER_ID = st.secrets['CLUSTER_ID']
