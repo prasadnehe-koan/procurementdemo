@@ -11,7 +11,7 @@ from datetime import datetime
 # CONFIGURATION — UPDATE THESE VALUES
 # ==========================================================
 DATABRICKS_INSTANCE = "https://adb-2662932819691267.7.azuredatabricks.net"
-DATABRICKS_TOKEN = DB_token  # replace with your PAT
+DATABRICKS_TOKEN = st.secrets['DB_token']  # replace with your PAT
 NOTEBOOK_PATH = "/Workspace/Users/prasad.nehe@koantekorg.onmicrosoft.com/pdf_creation/Procurement_report_generation_agent"
 VOLUME_PATH = "/Volumes/ai_demos/testing_db/pdf_files"
 CLUSTER_ID = "1022-104015-tldaj682"
